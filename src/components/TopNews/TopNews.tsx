@@ -13,7 +13,7 @@ function TopNews() {
       }
     useEffect(()=>{
     axios.
-    get('https://newsapi.org/v2/top-headlines?country=us&apiKey=544cd2d0bd5d4f0fa6134f872e457fad')
+    get('https://newsapi.org/v2/top-headlines?country=us&apiKey=')
         .then(function (response) {
             setTopNews(response.data.articles)
         })
