@@ -1,3 +1,4 @@
+import 'dotenv/config';
 {
   "expo": {
     "name": "News",
@@ -27,7 +28,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "81fdb71c-7f5b-42b0-86ea-adead09456d5"
+        "projectId": process.env.EXPO_PROJECT_ID
       }
     }
   }
